@@ -1,0 +1,23 @@
+---
+title: "Software"
+author: "Paulo Martel"
+---
+
+The use of Colab Notebooks for teaching make the software requirements essentially non-existent. However, some students may want to locally install the Python ecosystem on their local machines, for various reasons:
+
+1.  You may want to code from scripts directly, instead of using the cell based philosophy of the colab notebooks. Managing complex code and data pipellins becomes tricky on a notebook environment.
+2.  The Colab Environment is free, but that comes with a price: the virtual machine running your code is very light on resources (both CPU, RAM and disk space) and for heavy computing and very complex tasks will be impossible to use.
+3.  You many need to install packages that are not compatible with the colab virtual machine environment, or very difficult to set up.
+4.   You may require live access to use repositories of data, and to write and write massive amounts of data
+
+For all these reasons, you may need to install and run Python locally. Two comon ways tio do it:
+
+1.   Install python directly from www.python.org  - this is simple and provies you with a basic environent and and IDE
+
+2.   Install Conda or Miniconda from www.anaconda.com - you get a much powerful environment, with access to virtually thousands of packages and the benefit of isolated environment with much less danger of creating conflicts with other software installed on your machine. Trick to install packages are very often much easier to install in Conda than on a bare Python environment.
+
+3.  If you are on a Linux or Mac machine, you already have python installed, you just need to install packages (like *numpy*, *pandas*, *matplotlib*, *seaborn* or *scipy*) beyond what is installed by default on these systems. You can install these packages in *virtual environemtns* to isolate different software requeriments and distributions.
+
+In case you prefer a local installation, but you still want to be working in a notebook-base environment like Colab (very common among data scientists), you can install *Jupyter* under you Python installation to be able to create, save and run Python Notebooks (Colab Notebooks are in fact Jupyter Notebooks with some Google tweaking).
+
+The teacher can provide help, should you decide for a local installation.

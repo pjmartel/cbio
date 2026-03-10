@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs   # ← important for GitHub Pages
+
+website:
+  title: "Computational Biology | Python Programming Module | 2026"
+  navbar:
+    left:
+      - href: index.qmd
+        text: General Information
+      - href: software.qmd
+        text: Software requirements
+      - href: notebooks.qmd
+        text: Notebooks
+
+      - href: index.qmd
+        text: Home
+    
+
+format:
+  html:
+    theme:
+      - flatly
+      - brand
+    css: styles.css
+    toc: true
+    toc-location: right
+
+editor: visual
+
