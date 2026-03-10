@@ -15,12 +15,17 @@ website:
 
       - href: index.qmd
         text: Home
+        
+  page-footer:
+    left: "Copyright 2026, Paulo Martel"
+    center: "University of Algarve"
+    right: "Built with [Quarto](https://quarto.org)"
     
 
 format:
   html:
     theme:
-      - flatly
+      - sandstone
       - brand
     css: styles.css
     toc: true
