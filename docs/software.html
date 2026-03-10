@@ -120,8 +120,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#additional-notes" id="toc-additional-notes" class="nav-link active" data-scroll-target="#additional-notes">Additional Notes:</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -151,23 +157,28 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The use of Colab Notebooks for teaching make the software requirements essentially non-existent. However, some students may want to locally install the Python ecosystem on their local machines, for various reasons:</p>
-<ol type="1">
-<li>You may want to code from scripts directly, instead of using the cell based philosophy of the colab notebooks. Managing complex code and data pipellins becomes tricky on a notebook environment.</li>
-<li>The Colab Environment is free, but that comes with a price: the virtual machine running your code is very light on resources (both CPU, RAM and disk space) and for heavy computing and very complex tasks will be impossible to use.</li>
-<li>You many need to install packages that are not compatible with the colab virtual machine environment, or very difficult to set up.</li>
-<li>You may require live access to use repositories of data, and to write and write massive amounts of data</li>
-</ol>
-<p>For all these reasons, you may need to install and run Python locally. Two comon ways tio do it:</p>
-<ol type="1">
-<li><p>Install python directly from www.python.org - this is simple and provies you with a basic environent and and IDE</p></li>
-<li><p>Install Conda or Miniconda from www.anaconda.com - you get a much powerful environment, with access to virtually thousands of packages and the benefit of isolated environment with much less danger of creating conflicts with other software installed on your machine. Trick to install packages are very often much easier to install in Conda than on a bare Python environment.</p></li>
-<li><p>If you are on a Linux or Mac machine, you already have python installed, you just need to install packages (like <em>numpy</em>, <em>pandas</em>, <em>matplotlib</em>, <em>seaborn</em> or <em>scipy</em>) beyond what is installed by default on these systems. You can install these packages in <em>virtual environemtns</em> to isolate different software requeriments and distributions.</p></li>
-</ol>
-<p>In case you prefer a local installation, but you still want to be working in a notebook-base environment like Colab (very common among data scientists), you can install <em>Jupyter</em> under you Python installation to be able to create, save and run Python Notebooks (Colab Notebooks are in fact Jupyter Notebooks with some Google tweaking).</p>
-<p>The teacher can provide help, should you decide for a local installation.</p>
+<p>The use of Colab Notebooks for teaching makes software requirements essentially non-existent. However, some students may want to install the Python ecosystem locally on their own machines for various reasons:</p>
+<ul>
+<li><p><strong>Script-based workflow:</strong> You may prefer to code from scripts directly, rather than using the cell-based philosophy of Colab notebooks. Managing complex code and data pipelines can become cumbersome in a notebook environment.</p></li>
+<li><p><strong>Computational limitations:</strong> The Colab environment is free, but that comes at a cost: the virtual machine running your code is very limited in resources (CPU, RAM, and disk space). For heavy computing or very complex tasks, it may be impractical or impossible to use.</p></li>
+<li><p><strong>Package compatibility:</strong> You may need to install packages that are incompatible with the Colab virtual machine environment or that are very difficult to set up within it.</p></li>
+<li><p><strong>Data storage needs:</strong> You may require live access to data repositories and need to read from or write large amounts of data, which can be constrained in the cloud-based Colab environment.</p></li>
+</ul>
+<p>For the above reasons, you may need to install and run Python locally. Two common ways to do so are:</p>
+<p><strong>1. Install Python directly from <a href="https://www.python.org/">python.org</a></strong></p>
+<p>This is simple and provides you with a basic environment and an IDE (IDLE). (<strong>IDE</strong>: Integrated development environment - a software application, similar to Rstudio, that offers and integrated and self-contained approach to software development).</p>
+<p><strong>2. Install Conda or Miniconda from <a href="https://www.anaconda.com/">anaconda.com</a></strong></p>
+<p>This gives you a much more powerful environment with access to virtually thousands of packages, along with the benefit of isolated environments—greatly reducing the risk of conflicts with other software installed on your machine. Tricky packages are often much easier to install in Conda than in a bare Python environment.</p>
+<section id="additional-notes" class="level3">
+<h3 class="anchored" data-anchor-id="additional-notes">Additional Notes:</h3>
+<ul>
+<li><p><strong>Linux or Mac users:</strong> You already have Python installed. You only need to install additional packages (such as NumPy, pandas, Matplotlib, Seaborn, or SciPy) beyond what is installed by default on these systems. It is recommended to install these packages in virtual environments to isolate different software requirements and distributions.</p></li>
+<li><p><strong>Notebook-based workflow:</strong> If you prefer a local installation but still want to work in a notebook-based environment similar to Colab (a common preference among data scientists), you can install Jupyter under your Python installation. This will allow you to create, save, and run Python notebooks locally. (Colab notebooks are, in fact, Jupyter notebooks with some Google-specific tweaks.)</p></li>
+</ul>
+<p>Should you decide to pursue a local installation, the teacher can provide assistance.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

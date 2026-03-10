@@ -3,21 +3,30 @@ title: "Software"
 author: "Paulo Martel"
 ---
 
-The use of Colab Notebooks for teaching make the software requirements essentially non-existent. However, some students may want to locally install the Python ecosystem on their local machines, for various reasons:
+The use of Colab Notebooks for teaching makes software requirements essentially non-existent. However, some students may want to install the Python ecosystem locally on their own machines for various reasons:
 
-1.  You may want to code from scripts directly, instead of using the cell based philosophy of the colab notebooks. Managing complex code and data pipellins becomes tricky on a notebook environment.
-2.  The Colab Environment is free, but that comes with a price: the virtual machine running your code is very light on resources (both CPU, RAM and disk space) and for heavy computing and very complex tasks will be impossible to use.
-3.  You many need to install packages that are not compatible with the colab virtual machine environment, or very difficult to set up.
-4.   You may require live access to use repositories of data, and to write and write massive amounts of data
+-   **Script-based workflow:** You may prefer to code from scripts directly, rather than using the cell-based philosophy of Colab notebooks. Managing complex code and data pipelines can become cumbersome in a notebook environment.
 
-For all these reasons, you may need to install and run Python locally. Two comon ways tio do it:
+-   **Computational limitations:** The Colab environment is free, but that comes at a cost: the virtual machine running your code is very limited in resources (CPU, RAM, and disk space). For heavy computing or very complex tasks, it may be impractical or impossible to use.
 
-1.   Install python directly from www.python.org  - this is simple and provies you with a basic environent and and IDE
+-   **Package compatibility:** You may need to install packages that are incompatible with the Colab virtual machine environment or that are very difficult to set up within it.
 
-2.   Install Conda or Miniconda from www.anaconda.com - you get a much powerful environment, with access to virtually thousands of packages and the benefit of isolated environment with much less danger of creating conflicts with other software installed on your machine. Trick to install packages are very often much easier to install in Conda than on a bare Python environment.
+-   **Data storage needs:** You may require live access to data repositories and need to read from or write large amounts of data, which can be constrained in the cloud-based Colab environment.
 
-3.  If you are on a Linux or Mac machine, you already have python installed, you just need to install packages (like *numpy*, *pandas*, *matplotlib*, *seaborn* or *scipy*) beyond what is installed by default on these systems. You can install these packages in *virtual environemtns* to isolate different software requeriments and distributions.
+For the above reasons, you may need to install and run Python locally. Two common ways to do so are:
 
-In case you prefer a local installation, but you still want to be working in a notebook-base environment like Colab (very common among data scientists), you can install *Jupyter* under you Python installation to be able to create, save and run Python Notebooks (Colab Notebooks are in fact Jupyter Notebooks with some Google tweaking).
+**1. Install Python directly from [python.org](https://www.python.org/)**
 
-The teacher can provide help, should you decide for a local installation.
+This is simple and provides you with a basic environment and an IDE (IDLE). (**IDE**: Integrated development environment - a software application, similar to Rstudio, that offers and integrated and self-contained approach to software development).
+
+**2. Install Conda or Miniconda from [anaconda.com](https://www.anaconda.com/)**
+
+This gives you a much more powerful environment with access to virtually thousands of packages, along with the benefit of isolated environments—greatly reducing the risk of conflicts with other software installed on your machine. Tricky packages are often much easier to install in Conda than in a bare Python environment.
+
+### Additional Notes:
+
+-   **Linux or Mac users:** You already have Python installed. You only need to install additional packages (such as NumPy, pandas, Matplotlib, Seaborn, or SciPy) beyond what is installed by default on these systems. It is recommended to install these packages in virtual environments to isolate different software requirements and distributions.
+
+-   **Notebook-based workflow:** If you prefer a local installation but still want to work in a notebook-based environment similar to Colab (a common preference among data scientists), you can install Jupyter under your Python installation. This will allow you to create, save, and run Python notebooks locally. (Colab notebooks are, in fact, Jupyter notebooks with some Google-specific tweaks.)
+
+Should you decide to pursue a local installation, the teacher can provide assistance.

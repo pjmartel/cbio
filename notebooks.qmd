@@ -3,4 +3,18 @@ title: "Notebooks"
 author: "Paulo Martel"
 ---
 
-The page lists the Google Colab Notebooks used in this course. In order to use them, students need to have an *active Google account.* By clikcing on one of the links below, the students will open a copy of the notebook on their browsers (Crhome is recommend, but it should work in any browser). Since their are viewing a notebook created by another person (the teacher, in this case), they need to use the option "File , Save a Copy in Drive" to create a copy of the document in their Google Drive. After that, any edits on the notebook will be preserved. After that, the notebook needs to be activated, that is, it need to be **bound** to a virtual machine running on the Google cloud. In this way, students will be offered a full computing environment without the need to install any software on their computers. Keep in mind, though, that any file create on the virtual machine will erased after the machine disconnects, so anything to keep must be either downloaded or copied to the Google drive. To activete the notebook, presse on the "Connect" button on the upper right side.
+This page lists the Google Colab Notebooks used in this course. To use them, students must have an *active Google account*. By clicking on one of the links below, students will open a copy of the notebook in their browser (Chrome is recommended, but it should work in any browser). Since they are viewing a notebook created by another person (the teacher, in this case), they need to use the option **File \> Save a Copy in Drive** to create a copy of the document in their own Google Drive. After that, any edits made to the notebook will be preserved.
+
+Once copied, the notebook needs to be activated—that is, it must be connected to a virtual machine running on the Google Cloud. In this way, students are provided with a full computing environment without the need to install any software on their computers. Keep in mind, however, that any files created on the virtual machine will be erased once the machine disconnects. Therefore, anything that needs to be kept must be either downloaded or saved to Google Drive.
+
+To activate the notebook, click the **Connect** button in the upper-right corner.
+
+#### List of Colab Notebooks:<br>
+
+-   Introduction to Python Programming (for the absolute beginner)
+
+-   Introduction to Numpy
+
+-   Introduction to Pandas
+
+-   Descriptive Statistics
