@@ -11,7 +11,7 @@ To activate the notebook, click the **Connect** button in the upper-right corner
 
 #### List of Colab Notebooks:<br>
 
--   Introduction to Python Programming (for the absolute beginner)
+-   [Introduction to Python Programming (for the absolute beginner)](https://colab.research.google.com/drive/1FBmB-Rd6F9vP5FtFNq_G5rQtyENYNhpN?usp=sharing#scrollTo=02HvDIeyhGdj)
 
 -   Introduction to Numpy
 

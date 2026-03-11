@@ -1,0 +1,24 @@
+---
+title: "Resources"
+author: "Paulo Martel"
+---
+
+#### Helpers
+
+-   [Python cheat sheet](files/Python_Cheat_Sheet.pdf)
+
+-   [R and Python side by side](files/R_Python_Side_by_Side.pdf)
+
+#### Links
+
+-   [Python Home](https://www.python.org)
+
+-   [Anaconda](https://www.anaconda.org)
+
+#### Datasets
+
+-   Anscomb Quartet
+
+-   Iris Dataset
+
+-   Embryo Development

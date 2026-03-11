@@ -12,6 +12,10 @@ website:
         text: Software requirements
       - href: notebooks.qmd
         text: Notebooks
+      - href: resources.qmd
+        text: Resources
+
+        
 
       - href: index.qmd
         text: Home

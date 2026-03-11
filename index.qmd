@@ -10,13 +10,13 @@ date: "2026-03"
 
 Welcome to the home of the Python Programming Module of the Computational Biology Course. In this module, we will learn the basics of Python programming and provide an introduction to Python for data analytics and statistical analysis using a variety of specialized Python packages. The module does not require any previous programming knowledge, although this can certainly be helpful. Prior knowledge of basic concepts in statistics (descriptive statistics, distributions, simple hypothesis testing) is required and has been provided in the Statistics module of this course. The Python and R programming languages share many common concepts and methods, and students can certainly leverage their newly acquired R skills in their Python learning. To facilitate this transition, an R-to-Python comparative table is available.
 
---------------
+------------------------------------------------------------------------
 
 ### Teaching Approach
 
 This is a hands-on course, centered on student activities with guidance from the teacher. The teaching sessions use *Colab Notebooks*, a coding environment created by Google that requires minimal setup on the students' part. The course consists of a series of Colab Notebooks that students will work through, replicating calculations and solving simple coding challenges. Refer to the Notebooks Page for full instructions on how to use them.
 
-----------
+------------------------------------------------------------------------
 
 ### Module Evaluation
 
