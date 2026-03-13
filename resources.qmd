@@ -19,9 +19,9 @@ author: "Paulo Martel"
 
 -   [Student grades](files/students_grades.txt)
 
--   [Anscomb Quartet (.txt)](files/anscombes_quartet.tx)
+-   [Anscomb Quartet (.txt)](files/anscombes_quartet.txt)
 
--   Anscomb Quartet (.json)
+-   [Anscomb Quartet (.json)](files/anscombes_quartet.json)
 
 -   Iris Dataset
 
