@@ -15,6 +15,6 @@ To activate the notebook, click the **Connect** button in the upper-right corner
 
 -   [Introduction to Numpy](https://colab.research.google.com/drive/1LKkp1KPwvvp-kcQ92EnI4GgOVB4NHO-B?usp=sharing)
 
--   Introduction to Pandas
+-   [Introduction to Pandas](https://colab.research.google.com/drive/1LsHv7kb0zaSYGhcNSGllApvyGgxIs94w?usp=sharing)
 
 -   Descriptive Statistics
