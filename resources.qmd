@@ -17,7 +17,9 @@ author: "Paulo Martel"
 
 #### Datasets
 
--   [Student grades](files/students_grades.txt)
+-   [Student grades (.txt)](files/students_grades.txt)
+
+-   [Student grades (.csv)](files/students_grades.csv)
 
 -   [Anscomb Quartet (.txt)](files/anscombes_quartet.txt)
 
