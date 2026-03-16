@@ -17,4 +17,4 @@ To activate the notebook, click the **Connect** button in the upper-right corner
 
 -   [Introduction to Pandas](https://colab.research.google.com/drive/1LsHv7kb0zaSYGhcNSGllApvyGgxIs94w?usp=sharing)
 
--   Descriptive Statistics
+-   [Mice diet vs weight (in PYthon)](https://colab.research.google.com/drive/1CIBr1LQyFtnUufeBu7AjG152YdFrUC25?usp=sharing)
