@@ -25,6 +25,4 @@ author: "Paulo Martel"
 
 -   [Anscomb Quartet (.json)](files/anscombes_quartet.json)
 
--   Iris Dataset
-
--   Embryo Development
+-   [Car Fuel Efficiency](files/mpg.csv)
