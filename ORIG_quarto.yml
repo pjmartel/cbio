@@ -28,8 +28,10 @@ website:
 
 format:
   html:
-    theme: cosmo
-    css: custom.css
+    theme:
+      - sandstone
+      - brand
+    css: styles.css
     toc: true
     toc-location: right
 
